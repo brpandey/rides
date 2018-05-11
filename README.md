@@ -28,7 +28,8 @@ $ source sample.env
 ## Assignment
 
 The assignment consists in fetching data about car ride shares from a few made-up data providers. The fetched data should be normalized into a unified format and persisted to a local database.
-Data providers
+
+### Data providers
 
 We made up two different data providers: Kamakurashares and GinzaRides. These providers are accessible as an HTTP API specified below.
 
