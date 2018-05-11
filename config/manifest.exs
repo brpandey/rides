@@ -92,7 +92,7 @@ config :rides,
         "extra" => nil
       },
       # Specify endpoint url
-      :url => "http://0.0.0.0:4000/feed/v1/kamakurashares",
+      :url => "https://絆.xyz/feed/v1/kamakurashares",
       # Specify optional de duplication flag
       :dedup => true
     },
@@ -116,6 +116,6 @@ config :rides,
         "extra" => nil
       },
       # Specify endpoint url
-      :url => "http://0.0.0.0:4000/feed/v1/ginzarides"
+      :url => "https://絆.xyz/feed/v1/ginzarides"
     }
   }

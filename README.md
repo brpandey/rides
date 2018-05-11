@@ -1,7 +1,10 @@
 # Rides
 
-Fetches data about car ride shares from a few made-up live data providers in parallel
+Fetches data about car ride shares from a few made-up live data providers in parallel.  
 
+Implements below assignment
+
+Kizuna 絆 (http://www.bbc.com/news/world-asia-16321999)
 
 ## Noteworthy
 * Uses a scheduler to help dispatch runs, and to help adminster cache to db persistence
@@ -27,10 +30,10 @@ $ source sample.env
 The assignment consists in fetching data about car ride shares from a few made-up data providers. The fetched data should be normalized into a unified format and persisted to a local database.
 Data providers
 
-We made up two different data providers: Kamakurashares and GinzaRides. These providers are accessible as an HTTP API specified below. All providers are hosted at http://0.0.0.0:4000.
+We made up two different data providers: Kamakurashares and GinzaRides. These providers are accessible as an HTTP API specified below.
 
-* http://0.0.0.0:4000/feed/v1/ginzarides
-* http://0.0.0.0:4000/feed/v1/kamakurashares
+* https://絆.xyz/feed/v1/ginzarides
+* https://絆.xyz/feed/v1/kamakurashares
 
 ### Kamakurashares
 
