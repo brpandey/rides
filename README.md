@@ -4,8 +4,6 @@ Fetches data about car ride shares from a few made-up live data providers in par
 
 Implements below assignment
 
-Kizuna 絆 (http://www.bbc.com/news/world-asia-16321999)
-
 ## Noteworthy
 * Uses a scheduler to help dispatch runs, and to help adminster cache to db persistence
 * Uses a generic worker module template to implement standardized provider processes
@@ -33,8 +31,8 @@ The assignment consists in fetching data about car ride shares from a few made-u
 
 We made up two different data providers: Kamakurashares and GinzaRides. These providers are accessible as an HTTP API specified below.
 
-* https://絆.xyz/feed/v1/ginzarides
-* https://絆.xyz/feed/v1/kamakurashares
+* https://www.tripsutras.com/feed/v1/ginzarides
+* https://www.tripsutras.com/feed/v1/kamakurashares
 
 ### Kamakurashares
 
